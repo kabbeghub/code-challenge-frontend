@@ -1,70 +1,70 @@
-Frontend challenge
-====
+# Getting Started with Create React App
 
-![](https://images.unsplash.com/photo-1573588028698-f4759befb09a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2690&q=80)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Unsplash is the internet’s premium source of freely-usable images. 
-Create a nice-looking application that allows browsing of curated images from Unsplash.
+## Available Scripts
 
-# Requirements
+In the project directory, you can run:
 
-- [ ] Use the Unsplash API - docs here to set up a developer account: https://unsplash.com/documentation.
+### `npm start`
 
-- [ ] We want to see a grid overview, use the GET /photos/photos endpoint from the Unsplash API to get a set of images.
-- [ ] The application should be responsive and work both in portrait and landscape modes, on both desktop and mobile.
-- [ ] The application should support infinite scrolling using a lazy-load to fetch new images as the user scrolls.
-- [ ] The user can click on a grid element to get a full-width representation of the image with additional meta data.
-- [ ] The user can navigate to previous or next full-width representation without having to close that view.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# Tech requirements
-- React
-- Tests (we like [Jest](https://jestjs.io))
-- Linter (we like [Prettier](https://prettier.io))
-- CSSinJS is a plus, but not a requirement ([JSS](https://cssinjs.org/react-jss/), [styled-components](https://www.styled-components.com))
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-# Your challenge
-- Create a React app that satisfies all the requirements listed above. If you have ideas for nice-to-have features you are encouraged to add them. Surprise us! 
-- You can use any boilerplate and tools that you want to (NextJS, CRA etc) but we advice you to keep it simple. A clean, robust react app is what we're looking for, and we're usually in favor of using all available tools and tricks to get things done.
-- Modern browsers, no weird legacy
-- You can deploy your app on whatever cloud provider you wish (zeit, heroku, gcp etc)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Instructions
+### `npm run build`
 
-- Fork this repo
-- Build a clean and robust React app
-- Publish the app on your chosen cloud provider
-- Let us know that you've completed the challenge
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# When we talk
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-We expect you talk talk about
------------------------------
+### `npm run eject`
 
-- Description of solution.
-- Reasoning behind your technical choices, including architectural. 
-- Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
-- Link to to the hosted application where applicable.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-How we review
--------------
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Your application will be reviewed by our engineers. We do take into consideration your experience level.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* **Architecture**: how clean is the separation of controls and data?
-* **Clarity**: does the README clearly and concisely explain the problem and solution? Are technical tradeoffs explained?
-* **Correctness**: does the application do what was asked? If there is anything missing, does the README explain why it is missing?
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Does object-oriented code follows principles such as the single responsibility principle? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Security**: are there any obvious vulnerability?
-* **Testing**: how thorough are the automated tests? Will they be difficult to change if the requirements of the application were to change? Are there some unit and some integration tests?
-	* We're not looking for full coverage (given time constraint) but just trying to get a feel for your testing skills.
-* **UX**: is the web interface understandable and pleasing to use? Is the API intuitive?
-* **Technical choices**: do choices of libraries, databases, architecture etc. seem appropriate for the chosen application?
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-# License
+### Code Splitting
 
-This project is licensed under MIT. Feel free to use it anyway you see fit.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
